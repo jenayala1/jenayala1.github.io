@@ -12,10 +12,14 @@ function closeNav() {
     document.getElementById("main").style.marginLeft = "0";
 }
 
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
 
 
-
-
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
 
 
 

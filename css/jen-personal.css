@@ -318,17 +318,20 @@ body {
 		}
 
 footer {
-	position: fixed bottom;
+	position: relative;
 	margin: left;
 	margin: top;
 	font-family: "play";
 	font-size: 14px;
 	font-weight: normal;
 	padding-bottom: 5px;
-	padding-top: 20px;
+	padding-top: 10px;
 	font-weight: normal;
 	list-style-type: square;
 	width: 100%;
+	height: 110px;
+	box-sizing: border-box;
+	z-index: 15;
 }
 
 	.container {
