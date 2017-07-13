@@ -2,8 +2,8 @@
 
 
 body {
-	background-color: gainsboro;
-	background-image: url(../img/vintage-leaves.png);
+	background-color: linen;
+	background-image: url(../img/bouquet-of-plumeria-flowers.jpg);
 	font-family: "Play";
 	font-size: 18px;
 	margin: 10%;
@@ -39,7 +39,7 @@ body {
 		margin: bottom;
 		margin: top;
 		text-align: center;
-		background-color: darkgrey;
+		background-color: linen;
 
 	}
 
@@ -51,7 +51,6 @@ body {
 	}
 
 	.summary {
-		background-color: antiquewhite;
 		color: black;
 		width: 100%;
 		font: "Bank Gothic";
@@ -63,19 +62,19 @@ body {
 	.row-summary {
 		font: "play";
 		font-size: 16px;
-		background-color: antiquewhite;
 	}
 
 	.header1 {
+		font-size: 60px;
 		color: black;
 		text-decoration: underline;
 		font-family: "Bank Gothic";
 		font-weight: bold;
-		font-size:  30px;
 		text-align: center;
 		padding-bottom: 10px;
+		padding-top: 10px;
 		width: 100%;
-		background-color: antiquewhite;
+
 	}
 	.headerd {
 		font-family: "play";
@@ -83,22 +82,22 @@ body {
 		border-color: white;
 		padding: 10px;
 		margin: bottom;
-		background-color: antiquewhite;
 		width: 100%;
 		text-indent: right
 
 	}
 
 	.section-header {
-		color: steelblue;
+		color: dimgrey;
 		text-decoration: underline;
 		font-family: "Bank Gothic";
 		font-weight: bold;
 		font-size: 24px;
 		text-align: center;
 		padding-bottom: 10px;
+		padding-top: 10px;
 		width: 100%;
-		background-color: antiquewhite;
+	
 	}
 
 	.intro {
@@ -110,9 +109,10 @@ body {
 	h1, h2, h3, h4 {
 		text-align: center;
 		font-family: "Bank Gothic";
-		color: steelblue;
-		background-color: antiquewhite;
+		color: dimgrey;	
 		margin: bottom;
+		padding-bottom: 5px;
+		padding-top: 5px;
 	}
 
 	h1 {
@@ -144,43 +144,39 @@ body {
 		border-spacing: 2em;
 		border-style: double;
 		font-family: "Play";
-		background-color: antiquewhite;
 		
 	}
 
 	ul {
 		font-weight: bold;
 		font-size: 18px;
-		text-align: center;
-		width: 150px;
-		height: 50px;
-		border-bottom: double;
-		border-bottom-color: steelblue;
+		text-align: left;
+
 	}
 
 	li {
 		font-size: 14px;
 		padding: 2px;
-		width: 150px;
-		height: 30px;
 		margin: left;
 		margin: 5px;
-		border-bottom: solid;
-		border-right: dashed;
+
 	}
 
 	.paragraph1 {
 		margin-right: 10px;
 		font-family: "play";
+		padding-bottom: 10px;
 
 	}
 
 	.bullet1 {
 		list-style-type: square;
+		padding-bottom: 5px;
 	}
 
 	.bullet2 {
 		list-style-type: square;
+		padding-bottom: 5px;
 	}
 
 	.img2 {
@@ -209,12 +205,10 @@ body {
 		font-weight: normal;
 		padding-bottom: 5px;
 		padding-top: 10px;
-		background-color: antiquewhite;
 
 	}
 	
 	.work {
-		background-color: antiquewhite;
 		border-style: none;
 		font: "play";
 	}
@@ -225,7 +219,6 @@ body {
 		font-weight: bold;
 		padding-bottom: 5px;
 		padding-top: 10px;
-		background-color: antiquewhite;
 		
 	}
 	.column-job-title {
@@ -233,7 +226,6 @@ body {
 		font-size: 16px;
 		font-weight: normal;
 		font-style: italic;
-		background-color: antiquewhite;
 	}
 
 	.column-date-range {
@@ -241,14 +233,14 @@ body {
 		font-size: 14px;
 		font-weight: normal;
 		font-style: italic;
-		background-color: antiquewhite;
+	
 	}
 	.column-description {
 		width: 100%;
 		font-size: 14px;
 		font-weight: normal;
 		padding-bottom: 5px;
-		background-color: antiquewhite;
+
 	}
 
 	.column-accomplishments {
@@ -264,8 +256,7 @@ body {
 		width: 100%;
 		font-size: 14px;
 		font-weight: normal;
-		padding-bottom: 5px;
-		background-color: antiquewhite;
+		padding-bottom: 10px;
 		font-weight: normal;
 		list-style-type: square;
 		font-family: "play";
@@ -275,8 +266,7 @@ body {
 		font-family: "play";
 		font-size: 14px;
 		font-weight: normal;
-		padding-bottom: 5px;
-		background-color: antiquewhite;
+		padding-bottom: 10px;
 		font-weight: normal;
 		list-style-type: square;
 		
@@ -286,7 +276,6 @@ body {
 		font-size: 14px;
 		font-weight: normal;
 		padding-bottom: 5px;
-		background-color: antiquewhite;
 		font-weight: normal;
 		list-style-type: square;
 		font-family: "play";
@@ -322,7 +311,7 @@ footer {
 	font-size: 14px;
 	font-weight: normal;
 	padding-bottom: 5px;
-	background-color: ivory;
+	padding-top: 20px;
 	font-weight: normal;
 	list-style-type: square;
 	width: 100%;
@@ -341,11 +330,5 @@ footer {
 		
 	}
 
-@media (max-width: 767px) {
 
-}
-
-@media (min-width: 1200px) {
-
-}
 	
