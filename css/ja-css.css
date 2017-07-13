@@ -4,7 +4,8 @@ header {
 }
 
 body {
-	background-image: url(../img/bouquet-of-plumeria-flowers.jpg);
+	background-color: none;
+	background-image: url(../img/abstract-summer-background.png);
 	font-family: "Play";
 	font-size: 18px;
 	margin: 10%;
@@ -50,7 +51,7 @@ footer {
 	position: relative;
 	margin: left;
 	margin: top;
-	font-family: "play";
+	font-family: "Fresca-Regular";
 	font-size: 14px;
 	font-weight: normal;
 	padding-bottom: 5px;
@@ -69,21 +70,15 @@ footer {
     position: fixed;
     z-index: 1;
     top: 0;
-    left: 0;
+    left: 10px;
     background-color: #111;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
+    margin: left;
+    font-family: "MerriweatherSans-Regular";
 }
 
-.sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-}
 
 .sidenav a:hover, .offcanvas a:focus{
     color: #f1f1f1;
