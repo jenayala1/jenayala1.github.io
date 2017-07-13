@@ -2,7 +2,7 @@
 
 
 body {
-	background-color: antiquewhite;
+	background-color: gainsboro;
 	background-image: url(../img/vintage-leaves.png);
 	font-family: "Play";
 	font-size: 18px;
@@ -148,7 +148,7 @@ body {
 		
 	}
 
-	th {
+	ul {
 		font-weight: bold;
 		font-size: 18px;
 		text-align: center;
@@ -158,7 +158,7 @@ body {
 		border-bottom-color: steelblue;
 	}
 
-	td {
+	li {
 		font-size: 14px;
 		padding: 2px;
 		width: 150px;
