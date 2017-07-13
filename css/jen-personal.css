@@ -1,0 +1,351 @@
+/*! --incoporate the old Back and body chiropractic loading header-blocks --!*/
+
+
+body {
+	background-color: antiquewhite;
+	background-image: url(../img/vintage-leaves.png);
+	font-family: "Play";
+	font-size: 18px;
+	margin: 10%;
+	color: dimgrey;
+
+	}
+
+	.nav {
+		position: top;
+	}
+
+	.row:after; {
+		content: "";
+	    display: table;
+	    clear: both;
+	}
+
+	.column {
+	    padding: 10px;
+	    border: 1px solid silver;
+	    margin: 0px;
+	    text-indent: 20%;
+	    float: left;
+	    position: relative;
+	}
+
+	.column.nav {
+		width: 15%;
+		height: 40px;
+		list-style-type: none;
+		font-family: "play";
+		border-color: silver;
+		margin: bottom;
+		margin: top;
+		text-align: center;
+		background-color: darkgrey;
+
+	}
+
+	a {
+		padding-bottom: 10px;
+		color: navy;
+		font-weight: bold;
+		float: center;
+	}
+
+	.summary {
+		background-color: antiquewhite;
+		color: black;
+		width: 100%;
+		font: "Bank Gothic";
+		font-weight: bold;
+		font-size: 20px;
+	}
+
+
+	.row-summary {
+		font: "play";
+		font-size: 16px;
+		background-color: antiquewhite;
+	}
+
+	.header1 {
+		color: black;
+		text-decoration: underline;
+		font-family: "Bank Gothic";
+		font-weight: bold;
+		font-size:  30px;
+		text-align: center;
+		padding-bottom: 10px;
+		width: 100%;
+		background-color: antiquewhite;
+	}
+	.headerd {
+		font-family: "play";
+		color: silver;
+		border-color: white;
+		padding: 10px;
+		margin: bottom;
+		background-color: antiquewhite;
+		width: 100%;
+		text-indent: right
+
+	}
+
+	.section-header {
+		color: steelblue;
+		text-decoration: underline;
+		font-family: "Bank Gothic";
+		font-weight: bold;
+		font-size: 24px;
+		text-align: center;
+		padding-bottom: 10px;
+		width: 100%;
+		background-color: antiquewhite;
+	}
+
+	.intro {
+		background-image: url(../img/technology-background2.jpg);
+		font-family: "Bank Gothic";
+		color: black;
+	}
+
+	h1, h2, h3, h4 {
+		text-align: center;
+		font-family: "Bank Gothic";
+		color: steelblue;
+		background-color: antiquewhite;
+		margin: bottom;
+	}
+
+	h1 {
+		font-size: 25px;
+		font-weight: bold;
+	}
+
+	h2 {
+		text-decoration: underline;
+		font-size: 18px;
+		font-weight: bold;
+		margin: left;
+	}
+
+	h3  {
+		font-weight: normal;
+		margin: left;
+		font-size: 16px
+	}
+	
+	h4  {
+		font-weight: normal;
+		margin: left;
+		font-size: 14px;
+		padding-bottom: 10px;
+	}
+	
+	table {
+		border-spacing: 2em;
+		border-style: double;
+		font-family: "Play";
+		background-color: antiquewhite;
+		
+	}
+
+	th {
+		font-weight: bold;
+		font-size: 18px;
+		text-align: center;
+		width: 150px;
+		height: 50px;
+		border-bottom: double;
+		border-bottom-color: steelblue;
+	}
+
+	td {
+		font-size: 14px;
+		padding: 2px;
+		width: 150px;
+		height: 30px;
+		margin: left;
+		margin: 5px;
+		border-bottom: solid;
+		border-right: dashed;
+	}
+
+	.paragraph1 {
+		margin-right: 10px;
+		font-family: "play";
+
+	}
+
+	.bullet1 {
+		list-style-type: square;
+	}
+
+	.bullet2 {
+		list-style-type: square;
+	}
+
+	.img2 {
+		margin: bottom;
+		width: 60%;
+		padding: 10px;
+		position: left;
+	}
+
+
+	.hr {
+		outline-style: solid;
+		outline-color: steelblue;
+	}
+
+	/*! -- define column formatting for the following:
+	 	<div class="row-company"> COMPANY1 </div>
+          <div class="column-job-title">JOBTITLE1</div>
+          <div class="column-date-range">DATE RANGE1</div>
+          <div class="column-description">JOB DETAILS1</div>
+          <div class="column-accomplishments">ACCOMPLISHMENTS1</div>
+	!*/
+	.summary {
+		width: 100%;
+		font-size: 14px;
+		font-weight: normal;
+		padding-bottom: 5px;
+		padding-top: 10px;
+		background-color: antiquewhite;
+
+	}
+	
+	.work {
+		background-color: antiquewhite;
+		border-style: none;
+		font: "play";
+	}
+
+	.row-company {
+		width: 100%;
+		font-size: 18px;
+		font-weight: bold;
+		padding-bottom: 5px;
+		padding-top: 10px;
+		background-color: antiquewhite;
+		
+	}
+	.column-job-title {
+		width: 50%;
+		font-size: 16px;
+		font-weight: normal;
+		font-style: italic;
+		background-color: antiquewhite;
+	}
+
+	.column-date-range {
+		width: 50%;
+		font-size: 14px;
+		font-weight: normal;
+		font-style: italic;
+		background-color: antiquewhite;
+	}
+	.column-description {
+		width: 100%;
+		font-size: 14px;
+		font-weight: normal;
+		padding-bottom: 5px;
+		background-color: antiquewhite;
+	}
+
+	.column-accomplishments {
+		width: 100;
+		font-size: 14px;
+		font-weight: normal;
+		padding-bottom: 5px;
+		text-indent: 30px;
+		font-style: italic;
+	}
+	
+	.skills {
+		width: 100%;
+		font-size: 14px;
+		font-weight: normal;
+		padding-bottom: 5px;
+		background-color: antiquewhite;
+		font-weight: normal;
+		list-style-type: square;
+		font-family: "play";
+	}
+	.addex {
+		width: 100%;
+		font-family: "play";
+		font-size: 14px;
+		font-weight: normal;
+		padding-bottom: 5px;
+		background-color: antiquewhite;
+		font-weight: normal;
+		list-style-type: square;
+		
+}
+	.awards {
+		width: 100%;
+		font-size: 14px;
+		font-weight: normal;
+		padding-bottom: 5px;
+		background-color: antiquewhite;
+		font-weight: normal;
+		list-style-type: square;
+		font-family: "play";
+}
+	.projectimg {
+		padding: 10px;
+		width: 60%;
+		margin-bottom: 20px;
+}
+	form {
+		padding: 25px;
+	}
+
+
+		.label {
+			padding: 10px;
+			border: none;
+		}
+
+
+		.ul {
+			list-style: square;
+			color: navy;
+			background-color: white;
+
+		}
+
+footer {
+	position: fixed bottom;
+	margin: left;
+	margin: top;
+	font-family: "play";
+	font-size: 14px;
+	font-weight: normal;
+	padding-bottom: 5px;
+	background-color: ivory;
+	font-weight: normal;
+	list-style-type: square;
+	width: 100%;
+}
+
+	.container {
+		text-align: center;
+	}
+
+	.button {
+		padding: 20px;
+		margin-bottom: 20px;
+		display: inline-block;
+  		border-radius: 4px;
+  		cursor: pointer;
+		
+	}
+
+@media (max-width: 767px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+	
