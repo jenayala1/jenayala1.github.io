@@ -1,8 +1,19 @@
 /*! --incoporate the old Back and body chiropractic loading header-blocks --!*/
 
 
+header {
+	color: black; 
+	font-family: "Lato-Bold";
+}
+
+a {
+		padding-bottom: 10px;
+		float: center;
+		color: silver;
+}
+
 body {
-	background-color: linen;
+	background-color: white;
 	background-image: url(../img/bouquet-of-plumeria-flowers.jpg);
 	font-family: "Play";
 	font-size: 18px;
@@ -11,8 +22,13 @@ body {
 
 	}
 
+.container {
+	text-align: left
+}
+
 	.nav {
-		position: top;
+		position: top center;
+
 	}
 
 	.row:after; {
@@ -28,28 +44,24 @@ body {
 	    text-indent: 20%;
 	    float: left;
 	    position: relative;
+
 	}
 
 	.column.nav {
+		color: dimgrey;
 		width: 15%;
 		height: 40px;
 		list-style-type: none;
 		font-family: "play";
-		border-color: silver;
 		margin: bottom;
 		margin: top;
 		text-align: center;
-		background-color: linen;
+		background-color: none;
+		display: inline-block;
 
 	}
 
-	a {
-		padding-bottom: 10px;
-		color: navy;
-		font-weight: bold;
-		float: center;
-	}
-
+	
 	.summary {
 		color: black;
 		width: 100%;
@@ -62,6 +74,7 @@ body {
 	.row-summary {
 		font: "play";
 		font-size: 16px;
+		text-align: left;
 	}
 
 	.header1 {
@@ -78,7 +91,7 @@ body {
 	}
 	.headerd {
 		font-family: "play";
-		color: silver;
+		color: dimgrey;si
 		border-color: white;
 		padding: 10px;
 		margin: bottom;
@@ -166,6 +179,7 @@ body {
 		margin-right: 10px;
 		font-family: "play";
 		padding-bottom: 10px;
+		text-align: left;
 
 	}
 
@@ -321,14 +335,56 @@ footer {
 		text-align: center;
 	}
 
-	.button {
-		padding: 20px;
+button {
+		padding: 10px;
 		margin-bottom: 20px;
+		margin-top: 10px;
 		display: inline-block;
   		border-radius: 4px;
   		cursor: pointer;
+  		background-color: palegoldenrod;
+  		height: 50px;
 		
 	}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
 
 
 	
