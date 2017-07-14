@@ -1,28 +1,47 @@
-header {
+.header {
 	color: black; 
 	font-family: "Lato-Bold";
+	margin-left: 40px;
+	
 }
 
 body {
-	background-color: none;
+	background-color: transparent;
 	background-image: url(../img/blank-paper-sheet3.png);
 	background-position: right 20px; 
-	background-size: 70%
-	font-family: "Play";
+	background-width: 80%; 
+	background-height: 90%;
+	font-family: "oswald";
 	font-size: 18px;
 	color: black;
 	margin-left: 20px;
+	background-repeat: no-repeat;
+}
+
+.thumbnail {
+	display: block;
+	padding: 2px;
+	margin-bottom: 5px;
+	line-height: 1.25;
+	background-color: none;
+	border: 1px solid #ddd;
+	border-radius: 1px;
+	margin: left;
 
 }
 
+.thumbnail a>img, .thumbnail>img {
+	width: 100px;
+	height: 100px;
+	position: relative;
+}
 
 .header1 {
 	font-size: 60px;
 	font-family: "VastShadow-Regular";
 	text-align: center;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 	padding-top: 0px;
-	float: top;
 
 	}
 .headerd {
@@ -35,19 +54,99 @@ body {
 
 	}
 
+h4 {
+		text-align: center;
+		font-family: "Lato-Bold";
+		color: grey;	
+		margin: bottom;
+		padding-bottom: 5px;
+		padding-top: 30px;
+	}
+.section-header1 {
+		color: dimgrey;
+		font-family: "Lato-Bold";
+		font-weight: bold;
+		text-decoration: underline;
+		font-size: 24px;
+		text-align: center;
+		padding-bottom: 10px;
+		padding-top: 10px;
+		width: 100%;
+	
+	}
+
+.section-header2 {
+		color: dimgrey;
+		font-family: "Lato-Bold";
+		font-weight: bold;
+		font-style: italic;
+		font-size: 24px;
+		text-align: left;
+		padding-bottom: 10px;
+		padding-top: 10px;
+		width: 100%;
+	
+	}
+.box {
+	display: block;
+	box-sizing: border-box;
+	width: 400px;
+	margin-left: 260px;
+	background-color: white;
+	text-indent: 5px;
+	padding-bottom: 10px;
+}
+
+.text {
+	padding-left: 10px;
+}
+
+#software {
+	padding-top: 20px; 
+	padding-right: 10px;
+	float: left;
+
+}
+#technical {
+	padding-top: 20px; 
+	float: right;
+	position: relative;
+	background-color: white;
+}
+
 .titledesc {
-	padding-top: 10px;
-	margin-left: 10px;
+	padding-top: 5px;
 }
 
 #contactinfo {
-	margin-left: 20px;
 	padding-top: 20px;
 }
 
+#myservices {
+	margin-top: 60px;
+	background-color: transparent;
+	width: 600px;
+	margin-left: 350px;
+}
+
+#creative {
+	margin-top: 20px; 
+	padding-right: 10px;
+	float: left;
+	background-color: none;
+}
+
+
+#container-fluid {
+	padding: 5px;
+	margin: left;
+	position: relative;
+	display: block;
+
+}
 
 .row-summary {
-	font: "play";
+	font: "oswald";
 	font-size: 16px;
 	text-align: left;
 	}
@@ -64,15 +163,7 @@ button {
 	
 }
 
-.box {
-	border-style: solid silver;
-	width: 400px;
-}
 
-
-#software {
-	
-}
 
 footer {
 	position: bottom relative;
@@ -88,6 +179,24 @@ footer {
 	height: 110px;
 	box-sizing: border-box;
 	z-index: 15;
+}
+
+.column.nav {
+		width: 10%;
+		height: 40px;
+		list-style-type: none;
+		text-align: center;
+		display: inline-block;
+		box-sizing: border-box;
+
+	}
+
+.column.nav a  {
+		padding-bottom: none;
+		color: silver;
+		font-family: "oswald";
+		height: 30px;
+		
 }
 
 .sidenav {
