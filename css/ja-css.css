@@ -6,7 +6,7 @@ header {
 body {
 	background-color: none;
 	background-image: url(../img/blank-paper-sheet.jpg);
-	background-position: right 80px;
+	background-position: right 85px;
 	font-family: "Play";
 	font-size: 18px;
 	margin: 10%;
@@ -15,14 +15,13 @@ body {
 }
 
 
-
-
 .header1 {
 		font-size: 60px;
 		font-family: "VastShadow-Regular";
 		text-align: center;
 		padding-bottom: 10px;
 		padding-top: 10px;
+		float: top;
 
 	}
 .headerd {
@@ -52,9 +51,18 @@ button {
 		
 	}
 
+.box {
+	border-style: solid silver;
+	width: 400px;
+}
+
+
+#software {
+	
+}
 
 footer {
-	position: relative;
+	position: bottom relative;
 	margin: left;
 	font-family: "Fresca-Regular";
 	font-size: 14px;

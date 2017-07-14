@@ -172,8 +172,17 @@ body {
 		padding: 2px;
 		margin: left;
 		margin: 5px;
+		text-indent: none;
 
 	}
+
+	ol, ul {
+		font-size: 14px;
+		padding: 2px;
+		margin: left;
+		margin: 5px;
+		text-indent: none;
+	}	
 
 	.paragraph1 {
 		margin-right: 10px;
@@ -262,8 +271,9 @@ body {
 		font-size: 14px;
 		font-weight: normal;
 		padding-bottom: 5px;
-		text-indent: 30px;
 		font-style: italic;
+		text-align: left;
+		text-indent: none;
 	}
 	
 	.skills {
