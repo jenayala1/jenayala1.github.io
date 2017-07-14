@@ -5,51 +5,64 @@ header {
 
 body {
 	background-color: none;
-	background-image: url(../img/blank-paper-sheet.jpg);
-	background-position: right 85px;
+	background-image: url(../img/blank-paper-sheet3.png);
+	background-position: right 20px; 
+	background-size: 70%
 	font-family: "Play";
 	font-size: 18px;
-	margin: 10%;
 	color: black;
+	margin-left: 20px;
 
 }
 
 
 .header1 {
-		font-size: 60px;
-		font-family: "VastShadow-Regular";
-		text-align: center;
-		padding-bottom: 10px;
-		padding-top: 10px;
-		float: top;
+	font-size: 60px;
+	font-family: "VastShadow-Regular";
+	text-align: center;
+	padding-bottom: 20px;
+	padding-top: 0px;
+	float: top;
 
 	}
 .headerd {
-		font-family: "Lato-Bold";
-		border-color: white;
-		padding: 10px;
-		margin: bottom;
-		width: 100%;
-		text-indent: right
+	font-family: "Lato-Bold";
+	border-color: white;
+	padding: 10px;
+	margin: bottom;
+	width: 100%;
+	text-indent: right
 
 	}
+
+.titledesc {
+	padding-top: 10px;
+	margin-left: 10px;
+}
+
+#contactinfo {
+	margin-left: 20px;
+	padding-top: 20px;
+}
+
+
 .row-summary {
-		font: "play";
-		font-size: 16px;
-		text-align: left;
+	font: "play";
+	font-size: 16px;
+	text-align: left;
 	}
 
 button {
-		padding: 10px;
-		margin-bottom: 20px;
-		margin-top: 10px;
-		display: inline-block;
-  		border-radius: 4px;
-  		cursor: pointer;
-  		background-color: palegoldenrod;
-  		height: 50px;
-		
-	}
+	padding: 10px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	display: inline-block;
+	border-radius: 4px;
+	cursor: pointer;
+	background-color: palegoldenrod;
+	height: 50px;
+	
+}
 
 .box {
 	border-style: solid silver;
@@ -78,7 +91,7 @@ footer {
 }
 
 .sidenav {
-    height: 70%;
+    height: 50%;
     width: 0;
     position: absolute;
     z-index: 1;
