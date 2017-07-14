@@ -6,17 +6,19 @@ header {
 body {
 	background-color: none;
 	background-image: url(../img/blank-paper-sheet.jpg);
+	background-position: right 80px;
 	font-family: "Play";
 	font-size: 18px;
 	margin: 10%;
-	color: dimgrey;
+	color: black;
 
 }
 
+
+
+
 .header1 {
 		font-size: 60px;
-		color: black;
-		text-decoration: underline;
 		font-family: "VastShadow-Regular";
 		text-align: center;
 		padding-bottom: 10px;
@@ -24,14 +26,18 @@ body {
 
 	}
 .headerd {
-		font-family: "oswald";
-		color: dimgrey;
+		font-family: "Lato-Bold";
 		border-color: white;
 		padding: 10px;
 		margin: bottom;
 		width: 100%;
 		text-indent: right
 
+	}
+.row-summary {
+		font: "play";
+		font-size: 16px;
+		text-align: left;
 	}
 
 button {
@@ -50,7 +56,6 @@ button {
 footer {
 	position: relative;
 	margin: left;
-	margin: top;
 	font-family: "Fresca-Regular";
 	font-size: 14px;
 	font-weight: normal;
@@ -67,16 +72,16 @@ footer {
 .sidenav {
     height: 70%;
     width: 0;
-    position: fixed;
+    position: absolute;
     z-index: 1;
     top: 0;
-    left: 10px;
     background-color: #111;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-    margin: left;
-    font-family: "MerriweatherSans-Regular";
+    margin: right;
+    right: 10px;
+    font-family: "Fresca-Regular";
 }
 
 

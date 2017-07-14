@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>why won't this work?</title>
+        <meta charset="utf8">
+    </head>
+    <body>      
+        <h1 id="display">Display input value here when button clicked</h1>
+
+        <input id="value_to_move_to_display" type="text">
+        <button type="button">Click Me</button>
+
+        <script type="text/javascript">
+            "use strict"
+            $('button').on("click", function(){
+                $("#display").text($("#value_to_move_to_display").val());
+            });
+        </script>
+    </body>
+</html>
