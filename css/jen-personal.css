@@ -3,7 +3,7 @@
 
 header {
 	color: black; 
-	font-family: "Lato-Bold";
+	font-family: "Open Sans", sans-serif;
 }
 
 a {
@@ -15,7 +15,7 @@ a {
 body {
 	background-color: none;
 	background-image: url(../img/bouquet-of-plumeria-flowers.jpg);
-	font-family: "Play";
+	font-family: "Gill Sans", sans-serif;
 	font-size: 18px;
 	margin: 10%;
 	color: dimgrey;
@@ -52,7 +52,7 @@ body {
 		width: 15%;
 		height: 40px;
 		list-style-type: none;
-		font-family: "play";
+		font-family: "Open Sans", sans-serif;
 		margin: bottom;
 		margin: top;
 		text-align: center;
@@ -65,14 +65,14 @@ body {
 	.summary {
 		color: black;
 		width: 100%;
-		font: "Bank Gothic";
+		font: "Gill Sans", sans-serif;
 		font-weight: bold;
 		font-size: 20px;
 	}
 
 
 	.row-summary {
-		font: "play";
+		font-family: "Gill Sans", sans-serif;
 		font-size: 16px;
 		text-align: left;
 	}
@@ -81,7 +81,7 @@ body {
 		font-size: 60px;
 		color: black;
 		text-decoration: underline;
-		font-family: "Bank Gothic";
+		font-family: "Open Sans", sans-serif;
 		font-weight: bold;
 		text-align: center;
 		padding-bottom: 10px;
@@ -90,8 +90,8 @@ body {
 
 	}
 	.headerd {
-		font-family: "play";
-		color: dimgrey;si
+		font-family: "Open Sans", sans-serif;
+		color: dimgrey;
 		border-color: white;
 		padding: 10px;
 		margin: bottom;
@@ -103,7 +103,7 @@ body {
 	.section-header {
 		color: dimgrey;
 		text-decoration: underline;
-		font-family: "Bank Gothic";
+		font-family: "Gill Sans", sans-serif;
 		font-weight: bold;
 		font-size: 24px;
 		text-align: center;
@@ -115,17 +115,17 @@ body {
 
 	.intro {
 		background-image: url(../img/technology-background2.jpg);
-		font-family: "Bank Gothic";
+		font-family: "Open Sans", sans-serif;
 		color: black;
 	}
 
 	h1, h2, h3, h4 {
 		text-align: center;
-		font-family: "Bank Gothic";
+		font-family: "Gill Sans", sans-serif;
 		color: dimgrey;	
 		margin: bottom;
-		padding-bottom: 5px;
-		padding-top: 5px;
+		padding-bottom: 10px;
+		padding-top: 10px;
 	}
 
 	h1 {
@@ -135,28 +135,30 @@ body {
 
 	h2 {
 		text-decoration: underline;
-		font-size: 18px;
+		font-size: 22px;
 		font-weight: bold;
 		margin: left;
+
 	}
 
 	h3  {
 		font-weight: normal;
 		margin: left;
-		font-size: 16px
+		font-size: 18px;
+		
 	}
 	
 	h4  {
 		font-weight: normal;
 		margin: left;
-		font-size: 14px;
-		padding-bottom: 10px;
+		font-size: 16px;
+		
 	}
 	
 	table {
 		border-spacing: 2em;
 		border-style: double;
-		font-family: "Play";
+		font-family: "Gill Sans", sans-serif;
 		
 	}
 
@@ -168,7 +170,7 @@ body {
 	}
 
 	li {
-		font-size: 14px;
+		font-size: 16px;
 		padding: 2px;
 		margin: left;
 		margin: 5px;
@@ -186,7 +188,7 @@ body {
 
 	.paragraph1 {
 		margin-right: 10px;
-		font-family: "play";
+		font-family: "Gill Sans", sans-serif;
 		padding-bottom: 10px;
 		text-align: left;
 
@@ -204,7 +206,7 @@ body {
 
 	.img2 {
 		margin: bottom;
-		width: 60%;
+		margin-right: 10px;
 		padding: 10px;
 		position: left;
 	}
@@ -233,7 +235,7 @@ body {
 	
 	.work {
 		border-style: none;
-		font: "play";
+		font-family: "Gill Sans", sans-serif;
 	}
 
 	.row-company {
@@ -283,11 +285,11 @@ body {
 		padding-bottom: 10px;
 		font-weight: normal;
 		list-style-type: square;
-		font-family: "play";
+		font-family: "Gill Sans", sans-serif;
 	}
 	.addex {
 		width: 100%;
-		font-family: "play";
+		font-family: "Gill Sans", sans-serif;
 		font-size: 14px;
 		font-weight: normal;
 		padding-bottom: 10px;
@@ -302,7 +304,7 @@ body {
 		padding-bottom: 5px;
 		font-weight: normal;
 		list-style-type: square;
-		font-family: "play";
+		font-family: "Gill Sans", sans-serif;
 }
 	.projectimg {
 		padding: 10px;
@@ -331,11 +333,11 @@ footer {
 	position: relative;
 	margin: left;
 	margin: top;
-	font-family: "Fresca-Regular";
+	font-family: "Open Sans", sans-serif;
 	font-size: 14px;
 	font-weight: normal;
 	padding-bottom: 5px;
-	padding-top: 10px;
+	padding-top: 20px;
 	font-weight: normal;
 	list-style-type: square;
 	width: 100%;
@@ -355,7 +357,7 @@ button {
 		display: inline-block;
   		border-radius: 4px;
   		cursor: pointer;
-  		background-color: palegoldenrod;
+  		background-color: #20b2aa;
   		height: 50px;
 		
 	}
@@ -394,10 +396,7 @@ button {
     margin-left: 50px;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
+
 
 
 	
